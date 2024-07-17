@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(35, 35, 35);
+    .menu{
+    display: flex;
+    justify-content: flex-end;
+    .menu-borde{
+        margin: 10px;
+        }
+    }   
+}
+.colorpropio{
+    background-color:#ca0f0f;
+    }
+.logomoto{
+    width: 60px;
+    border-radius: 10px;
+}
+.borde:hover{
+    background-color:rgba(0, 0, 0, 0.952) ;
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/img/mas-de-200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color:#ca0f0f;
+    background-color: rgb(0, 0, 0);
+}
+
+#hero button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#envio .container{
+    padding: 200px 12px;
+    text-align: center;
+    background-color: #ca0f0f;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/img/correoarg.webp");
+}
+
+#envio button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color:#ffe600 ;
+    background-color: rgba(0, 0, 0, 0.97);
+}
+
+#envio button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.color-acento{
+    color: #ca0f0f;
+}
+
+#nosotros .container{
+    text-align: center;
+    padding: 100px 12px;
+    color: white;
+
+}
+
+footer{
+    padding: 30px;
+    .contactos{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+footer .container{
+    color: #ca0f0f;
+}
+
+.colorpies{
+    background-color:  rgb(35, 35, 35);
+}
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.icon{
+    width: 50px;
+    margin: 10px;
+}
+.boton{
+    border: 10px;
+    background-color: #ff000000;
+}
+.buton:hover{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.74);
+} 

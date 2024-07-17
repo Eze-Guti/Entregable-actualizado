@@ -1,0 +1,85 @@
+/*reseteo de código para unificar los espacios en todos los navegadores*/
+*{
+    padding:0;
+    margin:0;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-borde{
+    margin: 10px;
+}
+.colorcentral{
+    background-color: black;
+}
+.img-carusel{
+    padding: 20px;
+}
+
+.colorproducto{
+    background-color: red;
+    padding: 50px;
+}
+.producto-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.producto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+.logomoto{
+    width: 60px;
+    border-radius: 10px;
+}
+.borde:hover{
+    background-color:rgba(0, 0, 0, 0.973) ;
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.colorpropio{
+background-color: red;
+}
+.colorpies{
+    padding: 30px;
+    background-color: red;
+}
+.envio{
+    padding: 30px;
+    margin: auto;
+}
+.envio-p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+    margin: 20px;
+}
+.contactos{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.icon{
+    width: 50px;
+    margin: 10px;
+}
+.boton{
+    border: 10px;
+    background-color: #ff0000;
+}
+.buton:hover{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
